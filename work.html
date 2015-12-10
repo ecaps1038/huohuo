@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>火火作品集</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="css/work.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.fancybox.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        $('.shouqi').click(function(){
+			$('header').css('margin-top','-80px').css('overflow','inherit');});
+        $('.fangxia').click(function(){
+			$('header').css('margin-top','0px').css('overflow','hidden');});
+		$('.work_nav li').click(function(){
+			var lit=$(this).attr('date');
+			$('.scb').hide();
+			$(lit).fadeIn();
+			$('.work_nav li').removeClass();
+			$(this).addClass('changecolor');
+			return false;
+			});
+		$('.work_main ul li').hover(function(){
+			$(this).css('border-bottom','4px solid rgba(255,68,68,1)');
+			$(this).find('.beijin').css('background','rgba(0,0,0,0.3)');
+			$(this).find('img').css('width','320px').css('height','248px');
+			$(this).find('h4').css('color','rgba(255,255,255,1)');
+			$(this).find('p').css('color','rgba(255,255,255,0.7)');
+			},function(){
+			$(this).css('border-bottom','4px solid rgba(255,255,255,0.4)');
+			$(this).find('.beijin').css('background','rgba(0,0,0,0)');
+			$(this).find('img').css('width','275px').css('height','220px');
+			$(this).find('h4').css('color','rgba(255,255,255,0.5)');
+			$(this).find('p').css('color','rgba(255,255,255,0.3)');
+			})
+			$('.fancybox').fancybox();
+});
+</script>
+</head>
+
+<body>
+	<header>
+        <div class="inner">
+            <div class="logo"><a href="#"><img src="images/logo-3.png"/></a></div>
+            <div class="bars">
+            <span class="shouqi"><i class="fa fa-angle-double-up"></i></span>
+            <span class="fangxia"><i class="fa fa-bars"></i></span>
+            </div>
+            <ul>
+                <li><a href="index.html" id="home1">首页</a></li>
+                <li><a href="index.html" id="service1">服务项目</a></li>
+                <li><a href="index.html" id="work1">作品展示</a></li>
+                <li><a href="index.html" id="about1">关于我</a></li>
+                <li><a href="index.html" id="contact1">联系我</a></li>
+            </ul>
+        </div>
+    </header>  
+	<section>
+        <div class="inner">
+			<div class="header">
+				<h3>作品集</h3>
+			</div>
+            <div class="work_inner">
+                <ul class="work_nav">
+                    <li date=".scb" class="changecolor">全部</li>
+                    <li date=".move">移动</li>
+                    <li date=".web">web</li>
+                    <li date=".pmian">平面</li>
+                    <li date=".logo1">logo</li>
+                    <li date=".seying">摄影</li>
+                    <li date=".mode">心情</li>
+                </ul>
+                <div class="work_main">
+					<ul>
+						<li class="scb move"><div id="img"><img src="images/pic_03.png"/></div>
+							<h4>手机APP应用 手机APP应用</h4>
+							<p>2015.11.28</p>
+							<a class="fancybox" href="images/img_05.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><p href= "#" class="beijin"></p></a>
+						</li>
+						<li class="scb web"><div id="img"><img src="images/pic_05.png"/></div>
+							<h4>手机APP应用 手机APP应用</h4>
+							<p>2015.11.28</p>
+							<a class="fancybox" href="images/img_05.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><p href= "#" class="beijin"></p></a>
+						</li>
+						<li class="scb pmian"><div id="img"><img src="images/pic_07.png"/></div>
+							<h4>手机APP应用 手机APP应用</h4>
+							<p>2015.11.28</p>
+							<a class="fancybox" href="images/img_05.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><p href= "#" class="beijin"></p></a>
+						</li>
+						<li class="scb logo1"><div id="img"><img src="images/pic_08.png"/></div>
+							<h4>手机APP应用 手机APP应用</h4>
+							<p>2015.11.28</p>
+							<a class="fancybox" href="images/img_05.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><p href= "#" class="beijin"></p></a>
+						</li>
+						<li class="scb web"><div id="img"><img src="images/pic_11.png"/></div>
+							<h4>手机APP应用 手机APP应用</h4>
+							<p>2015.11.28</p>
+							<a class="fancybox" href="images/img_05.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><p href= "#" class="beijin"></p></a>
+						</li>
+						<li class="scb pmian"><div id="img"><img src="images/pic_12.png"/></div>
+							<h4>手机APP应用 手机APP应用</h4>
+							<p>2015.11.28</p>
+							<a class="fancybox" href="images/img_05.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><p href= "#" class="beijin"></p></a>
+						</li>
+						<li class="scb move"><div id="img"><img src="images/pic_07.png"/></div>
+							<h4>手机APP应用 手机APP应用</h4>
+							<p>2015.11.28</p>
+							<a class="fancybox" href="images/img_05.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><p href= "#" class="beijin"></p></a>
+						</li>
+						<li class="scb web"><div id="img"><img src="images/pic_11.png"/></div>
+							<h4>手机APP应用 手机APP应用</h4>
+							<p>2015.11.28</p>
+							<a class="fancybox" href="images/img_05.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><p href= "#" class="beijin"></p></a>
+						</li>
+						<li class="scb mode"><div id="img"><img src="images/pic_11.png"/></div>
+							<h4>手机APP应用 手机APP应用</h4>
+							<p>2015.11.28</p>
+							<a class="fancybox" href="images/img_05.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><p href= "#" class="beijin"></p></a>
+						</li>
+						<li class="scb logo1"><div id="img"><img src="images/pic_11.png"/></div>
+							<h4>手机APP应用 手机APP应用</h4>
+							<p>2015.11.28</p>
+							<a class="fancybox" href="images/img_05.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><p href= "#" class="beijin"></p></a>
+						</li>
+						<li class="scb logo1"><div id="img"><img src="images/pic_12.png"/></div>
+							<h4>手机APP应用 手机APP应用</h4>
+							<p>2015.11.28</p>
+							<a class="fancybox" href="images/img_05.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><p href= "#" class="beijin"></p></a>
+						</li>
+						<li class="scb logo1"><div id="img"><img src="images/pic_07.png"/></div>
+							<h4>手机APP应用 手机APP应用</h4>
+							<p>2015.11.28</p>
+							<a class="fancybox" href="images/img_05.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><p href= "#" class="beijin"></p></a>
+						</li>
+					</ul>
+                </div>
+        </div>
+	  </section>
+	  <footer>
+		<p>THANKS</p>
+	  </footer>
+</body>
+</html>
