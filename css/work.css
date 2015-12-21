@@ -19,15 +19,6 @@ abbr,acronym { border:0; }
 /*重写浏览器默认样式 end */
 
 /*全局样式 start*/
-
-@font-face {
-	font-family: 'Conv_lucon';
-	src: url('fonts/lucon.eot');
-	src: local('☺'), url('fonts/lucon.woff') format('woff'), url('fonts/lucon.ttf') format('truetype'), url('fonts/lucon.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
 a{ 
 	text-decoration:none;
 	outline:none;
@@ -163,9 +154,8 @@ section{
 	}
 .work_main ul li img{
 	width:275px;
-	height:220px;
 	transition:all 0.3s;
-	position:absolute;
+	/*position:absolute;
 	width:100%;
 	top:50%;
 	left:50%;
@@ -173,7 +163,7 @@ section{
 	-webkit-transform:translate(-50%,-50%);	
 	-moz-transform:translate(-50%,-50%);	
 	-ms-transform:translate(-50%,-50%);	
-	-o-transform:translate(-50%,-50%);	
+	-o-transform:translate(-50%,-50%);	*/
 	}
  #img{
 	width:275px;
