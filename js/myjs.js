@@ -138,7 +138,7 @@ $(function(){
             });  
     
             $("#contact1").click(function(){  
-                $('body,html').animate({scrollTop:$(window).height()*0.94+2200},300);  
+                $('body,html').animate({scrollTop:$(window).height()*0.94+2210},300);  
                 return false;  
             });  
         });  
