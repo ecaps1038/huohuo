@@ -20,9 +20,12 @@ abbr,acronym { border:0; }
 
 /*全局样式 start*/
 html,body{ width:100%; height:100%; }
-#main,#main>li{ width:100%; height:100%; text-align:center;}
+#main{ width:100%; height:100%; text-align:center;}
 #main>li{background:#f4f4f4 no-repeat center center; background-size:cover;}
-
+.face{width:100%; height:100%; text-align:center;}
+.service{width:100%; height:750px; text-align:center;}
+.work{width:100%; height:680px; text-align:center;}
+.contact{width:100%; height:680px; text-align:center;}
 #main>li:nth-child(1){ 	background:url(../images/banner_1.jpg) no-repeat left top;
 	background-size:cover;}
 #main>li:nth-child(3){ background-color:#e7e7e7;}
@@ -236,29 +239,6 @@ header ul li a:hover{
 	border-top:2px solid #fff;
 	border-bottom:2px solid #fff;
 	}
-.down{
-	width:60px;
-	height:60px;
-	border-radius:30px;
-	font-size:60px;
-	line-height:60px;
-	color:#fff;
-	position:absolute;
-	bottom:22px;
-	left:565px;
-	animation:yidong 2s infinite;
-	z-index:2;
-	cursor:pointer;
-	}
-.down:hover{
-	background:rgba(255,255,255,0.5);
-	transition:all 0.3s;
-	}
-@keyframes yidong{
-	0%{	transform:translateY(0);}
-	50%{transform:translateY(10px);}
-	100%{transform:translateY(0);}
-}
 .service_p{
 	font-size:24px;
 	line-height:28px;
@@ -402,16 +382,7 @@ header ul li a:hover{
 	}
 .work_main ul li img{
 	width:275px;
-	height:220px;
 	transition:all 0.3s;
-	position:absolute;
-	width:100%;
-	top:50%;
-	transform:translate(-50%,-50%);
-	-webkit-transform:translate(-50%,-50%);	
-	-moz-transform:translate(-50%,-50%);	
-	-ms-transform:translate(-50%,-50%);	
-	-o-transform:translate(-50%,-50%);	
 	}
  #img{
 	width:275px;
@@ -476,14 +447,14 @@ header ul li a:hover{
 .work_more:hover{
 	background:#f33;
 	}
-#main .about{
-	height:80%;
+ .about{
+	height:600px;
 	}
 .about_top{
 	padding-left:5%;
 	position:absolute;
 	width:95%;
-	top:20%;
+	top:140px;
 	}
  .about_my{
 	float:left;
@@ -507,7 +478,11 @@ header ul li a:hover{
 	float:left;
 	text-align:left;
 	padding-left:40px;
+	padding-right:20px;
 	border-left:2px solid #999;
+	height:400px;
+	overflow-y:scroll;
+
 	}
 .about_skill h5{
 	font-size:20px;
@@ -544,7 +519,7 @@ header ul li a:hover{
 	}
 #main #experience{
 	width:100%;
-	height:22%;
+	height:200px;
 	background:url(../images/details.png) no-repeat left top fixed;
 	text-align:left;
 	}
