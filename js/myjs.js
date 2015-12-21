@@ -90,7 +90,7 @@ $(function(){
             });  
     
             $("#service1").click(function(){  
-                $('body,html').animate({scrollTop:$(window).height()*0.965},300);  
+                $('body,html').animate({scrollTop:$(window).height()*0.94},300);  
                 return false;  
             });  
         });  
@@ -106,7 +106,7 @@ $(function(){
             });  
     
             $("#work1").click(function(){  
-                $('body,html').animate({scrollTop:$(window).height()*1.965},300);  
+                $('body,html').animate({scrollTop:($(window).height()*0.94+730)},300);  
                 return false;  
             });  
         });  
@@ -121,8 +121,8 @@ $(function(){
                 }  
             });  
     
-            $("#about1").click(function(){  
-                $('body,html').animate({scrollTop:$(window).height()*2.965},300);  
+            $("#about1").click(function(){ 
+                $('body,html').animate({scrollTop:$(window).height()*0.94+1410},300);  
                 return false;  
             });  
         });  
@@ -138,7 +138,7 @@ $(function(){
             });  
     
             $("#contact1").click(function(){  
-                $('body,html').animate({scrollTop:$(window).height()*3.965},300);  
+                $('body,html').animate({scrollTop:$(window).height()*0.94+2200},300);  
                 return false;  
             });  
         });  
