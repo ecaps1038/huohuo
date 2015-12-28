@@ -90,7 +90,7 @@ $(function(){
             });  
     
             $("#service1").click(function(){  
-                $('body,html').animate({scrollTop:$(window).height()*0.94},300);  
+                $('body,html').animate({scrollTop:$(window).height()-80},300);  
                 return false;  
             });  
         });  
@@ -106,7 +106,7 @@ $(function(){
             });  
     
             $("#work1").click(function(){  
-                $('body,html').animate({scrollTop:($(window).height()*0.94+730)},300);  
+                $('body,html').animate({scrollTop:($(window).height()+670)},300);  
                 return false;  
             });  
         });  
@@ -122,7 +122,7 @@ $(function(){
             });  
     
             $("#about1").click(function(){ 
-                $('body,html').animate({scrollTop:$(window).height()*0.94+1410},300);  
+                $('body,html').animate({scrollTop:$(window).height()+1350},300);  
                 return false;  
             });  
         });  
@@ -138,7 +138,7 @@ $(function(){
             });  
     
             $("#contact1").click(function(){  
-                $('body,html').animate({scrollTop:$(window).height()*0.94+2210},300);  
+                $('body,html').animate({scrollTop:$(window).height()+2250},300);  
                 return false;  
             });  
         });  
