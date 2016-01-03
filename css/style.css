@@ -411,15 +411,7 @@ header ul li a:hover{
 	line-height:40px;
 	color:rgba(255,255,255,0.5);
 	padding-left:0;
-	transition:all 0.3s;
-	}
-.work_main li p{
-	float:left;
-	font-size:14px;
-	line-height:24px;
-	padding-bottom:6px;
-	color:rgba(255,255,255,0.35);
-	padding-left:0;
+	padding-bottom:30px;
 	transition:all 0.3s;
 	}
 .work_more{

@@ -5,9 +5,10 @@
         $('.fangxia').click(function(){
 			$('header').css('margin-top','0px').css('overflow','hidden');});
 
-        $('.logo_t img').hover(function(){
-			$('header').css('margin-top','-80px').css('overflow','inherit');},
-			function(){$('header').css('margin-top','0px').css('overflow','hidden');});
+        $('.logo_t img').click(function(){  
+                $('body,html').animate({scrollTop:0},300);  
+                return false;  
+            });  
 
 		$('.service_inner .left').hover(function(){
 			$(this).find('ul').css('top','13%');
