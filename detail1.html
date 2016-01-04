@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 <title>详情页</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <link href="css/detail.css" rel="stylesheet" type="text/css">
 <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -23,6 +24,12 @@
                 else  
                 {  
                     $(".top").css('display','inline');  
+                }  if ($(window).scrollTop()<50){  
+                    $("aside").css('position','relative').css('top','0');  
+                }  
+                else  
+                {  
+                    $("aside").css('position','fixed');  
                 }  
             });  
     
@@ -39,17 +46,17 @@
 <body>
 	<section>
     	<article>
-			<div class="header"></div>
+				<h1>春秋女装天猫双十一狂欢页面</h1>
 			<div><img src="images/ssy.jpg"/></div>
 		</article>
         <aside>
-			<h1>春秋女装天猫双十一狂欢页面</h1>
+			<h2>详情介绍</h2>
 			<p>简介简介简介简介简介简介简介简介简介简介简介</p>
 		</aside>
     </section>
 	<a class="left" href="#"><i class="fa fa-angle-left"></i></a>
 	<a class="right" href="#"><i class="fa fa-angle-right"></i></a>
-	<a class="top" href="#"><i class="fa fa-arrow-up"></i></a>
+	<a class="top" href="#"><i class="fa fa-angle-up"></i></a>
     <a  class="close" href="javascript:window.close()"><img src="images/close_icon.png"/></a></div>
 </body>
 </html>

@@ -33,13 +33,7 @@
 		$('.nav_t').hover(function(){},function(){
 			$('.nav_t>ul').slideUp("fast");
 			});
-		 $('.work_main').kxbdSuperMarquee({
-		distance:305,
-		time:1000,
-		duration:30,
-		direction: 'left',
-		btnGo:{left:'#goL',right:'#goR'}
-		});
+
 		$('.work_main ul li').hover(function(){
 			$(this).css('border-bottom','4px solid rgba(255,68,68,1)');
 			$(this).find('.beijin').css('background','rgba(0,0,0,0.2)');
@@ -63,9 +57,7 @@
 		$('.down').click(function(){
 			$('body,html').animate({scrollTop:$(window).height()*0.965},300);
 			})
-
-			$('.fancybox').fancybox();
-	
+				
     });
 $(function(){  
         //当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失  
