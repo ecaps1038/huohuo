@@ -33,22 +33,22 @@ body{
 	position:relative;
 	}
 section{
-	height:1800px;
-	width:960px;
+	height:1200px;
+	width:1000px;
 	margin:0 auto;
 	position:relative;
 	z-index:10;
 	padding-top:50px;
 	}
 article{
-	width:700px;
+	width:720px;
 	float:right;
 	background:#fff;
 	position:relative;
 	z-index:10;
 	text-align:center;
 	padding-top:20px;
-	box-shadow:0px 0px 6px #666;
+	box-shadow:0px 0px 4px #aaa;
 	}
 article img{
 	width:620px;
@@ -64,10 +64,11 @@ article h1{
 	}
 aside{
 	height:600px;
-	width:246px;
+	width:264px;
 	float:left;
 	background:#fff;
-	box-shadow:0px 0px 6px #666;
+	box-shadow:0px 0px 4px #aaa;
+	/*overflow-y:scroll;*/
 	}
 aside h2{
 	padding:40px 0 12px 14px;
@@ -78,8 +79,11 @@ aside h2{
 	}
 aside p{
 	padding:20px 14px 0px 14px;
-	font-size:16px;
+	font-size:14px;
+	line-height:20px;
+	height:480px;
 	color:#333;
+	/*overflow-y:scroll;*/
 	}
 .close{
 	width:100%;
