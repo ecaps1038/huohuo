@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+<title>简历</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="css/resume.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(e) {
+		$('.close').hover(function(){
+			$('.close img').css('display','inline');
+		},function(){
+			$('.close img').css('display','none');
+		});
+
+		$(function(){  
+        //当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失  
+        $(function () {  
+            $(window).scroll(function(){  
+                if ($(window).scrollTop()<$(window).height()){  
+                    $(".top").css('display','none');  
+                }  
+                else  
+                {  
+                    $(".top").css('display','inline');  
+                } 
+            });  
+    
+            $(".top").click(function(){  
+                $('body,html').animate({scrollTop:0},300);  
+                return false;  
+            });  
+        });});  
+	});
+</script>
+</head>
+
+<body>
+	<section>
+		<div><img src="images/resume.jpg"/></div>
+    </section>
+	<a class="left" href="images/jianli.doc"><i class="fa fa-download"></i><p>简历下载</p></a>
+    <a  class="close" href="javascript:window.close()"><img src="images/close_icon.png"/></a></div>
+</body>
+</html>

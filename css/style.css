@@ -426,21 +426,18 @@ header ul li a:hover{
 	background:#f33;
 	}
  .about{
-	height:600px;
+	height:700px;
 	}
 .about_top{
-	padding-left:5%;
-	position:absolute;
-	width:95%;
-	top:140px;
+	padding-top:140px;
 	}
  .about_my{
 	float:left;
 	width:50%;
 	}
  .about_pic{
-	width:210px;
-	height:210px;
+	width:200px;
+	height:200px;
 	border-radius:100px;
 	overflow:hidden;
 	}
