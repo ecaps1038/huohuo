@@ -119,6 +119,7 @@ aside{float:right;
 	font-size:48px;
 	line-height:100px;
 	color:#666;
+	border-radius:0px 8px 8px 0px;
 	z-index:10;
 	transition:all 0.3s;
 	}
@@ -137,6 +138,7 @@ aside{float:right;
 	font-size:48px;
 	line-height:100px;
 	color:#666;
+	border-radius:8px 0px 0px 8px;
 	z-index:10;
 	transition:all 0.3s;
 	}
@@ -146,20 +148,22 @@ aside{float:right;
 	}
 .top{ 
 	display:none;
-	width:80px;
+	width:68px;
 	text-align:center;
 	position:fixed;
 	bottom:0;
 	right:0px;
 	font-size:48px;
-	line-height:100px;
-	color:#666;
+	line-height:68px;
+	background:#ff3333;
+	color:#fff;
 	z-index:10;
+	border-radius:8px;
+	margin-right:20px;
 	transition:all 0.3s;
 	}
 .top:hover{
-	color:#222;
-	background:#fff;
+	background:#ff0000;
 	}
 /*◊‘  ”¶*/
 @media screen and (max-width:720px){
