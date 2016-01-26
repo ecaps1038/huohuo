@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ï»¿@charset "UTF-8";
 /* CSS Document */
 *{
 	padding:0;
@@ -23,11 +23,7 @@ textarea{
 	resize:none;
 	}
 body{
-	font-family:Arial, Helvetica,"Î¢ÈíºÚÌå", sans-serif;
-	}
-
-
-body{
+	font-family:Arial, Helvetica,"å¾®è½¯é›…é»‘", sans-serif;
 	background:rgba(0,0,0,0.6);
 	width:100%;
 	position:relative;
@@ -63,13 +59,16 @@ article h1{
 	color:#333;
 	font-weight:normal;
 	}
-aside{float:right;
+aside{
+	float:right;
+	width:284px;
 	}
 #right{
 	height:600px;
 	width:284px;
 	background:#fff;
 	box-shadow:0px 0px 4px #aaa;
+	position:fixed;
 	/*overflow-y:scroll;*/
 	}
 #right h2{
@@ -83,9 +82,31 @@ aside{float:right;
 	padding:16px 16px 0px 16px;
 	font-size:14px;
 	line-height:24px;
-	height:480px;
 	color:#333;
 	/*overflow-y:scroll;*/
+	}
+#right .pic{
+	widht:284;
+	text-align:center;
+	padding-top:20px;
+	}
+#right a{
+	display:block;
+	width:160px;
+	margin-top:30px;
+	line-height:36px;
+	font-size:20px;
+	margin-left:62px;
+	text-align:center;
+	background:#ff3333;
+	color:#fff;
+	z-index:10;
+	border-radius:8px;
+	margin-right:20px;
+	transition:all 0.3s;
+	}
+#right a:hover{
+	background:#ff0000;
 	}
 .close{
 	width:100%;
@@ -165,7 +186,7 @@ aside{float:right;
 .top:hover{
 	background:#ff0000;
 	}
-/*×ÔÊÊÓ¦*/
+/*è‡ªé€‚åº”*/
 @media screen and (max-width:720px){
 	aside,.close,.left,.right,.top{
 		display:none;

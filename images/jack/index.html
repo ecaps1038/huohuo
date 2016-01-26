@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jack daniels</title>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/kxbdSuperMarquee.js" type="text/javascript"></script>
+<script src="js/jquery.fancybox.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        $('.nav>li').hover(function(){
+			$(this).children('.sub_nav').stop().slideDown("fast");
+			},function(){
+			$(this).children('.sub_nav').stop().slideUp("fast");
+				});
+			
+		 $('.top_img').kxbdSuperMarquee({
+		distance:1116,
+		duration:40,
+		time:4,
+		direction: 'left',
+		navId:'#marqueeNav'
+		});
+		 $('.works_bot').kxbdSuperMarquee({
+		distance:288,
+		duration:30,
+		time:3,
+		direction: 'left',
+		btnGo:{left:'#goL',right:'#goR'}
+		});
+	$('.fancybox').fancybox();
+
+    });
+</script>
+</head>
+
+<body>
+	<div id="header">
+    	<div class="header_inner">
+        	<div class="logo"><a href="#"><img src="images/index1_03.jpg"/></a></div>
+            <p>PHOTO PORTFOLIO</p>
+            <form>
+            	<input type="text" class="search" value="Search..."/><input type="button" class="button"/>
+            </form>
+        </div>
+    </div>
+    <div id="nave">
+    	<div class="nave_inner">
+        	<ul class="nav">
+            	<li><a href="#" class="first">HOME</a></li>
+            	<li><a href="#">ABOUT</a>
+                    <div class="sub_nav">
+                        <ul>
+                            <li><a href="#">HISTORY</a></li>
+                            <li><a href="#">TEAM</a></li>
+                            <li><a href="#">FAQS</a></li>
+                        </ul>
+                     </div>
+                </li>
+            	<li><a href="#">PORTFOLIO</a>
+					 <div class="sub_nav">
+                        <ul>
+                            <li><a href="#">WORK</a></li>
+                            <li><a href="#">TIMES</a></li>
+                            <li><a href="#">LOVELY</a></li>
+                            <li><a href="#">MOST</a></li>
+                        </ul>
+                     </div>				</li>
+            	<li><a href="#">BLOG</a></li>
+            	<li><a href="#">SERVICES</a></li>
+            	<li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+    	<div class="main_top">
+        	<div class="top_img">
+                <ul>
+                    <li><img src="images/banner_1.jpg"/></li>
+                    <li><img src="images/banner_2.jpg"/></li>
+                    <li><img src="images/banner_3.jpg"/></li>
+                    <li><img src="images/banner_4.jpg"/></li>
+                </ul>
+            </div>
+            <div id="marqueeNav"></div>
+            <div class="main_top_bt">
+            	<div class="main_left">
+                	<h3>SHORTLY <span>ABOUT ME</span></h3>
+                    <div>
+                        <div class="left_img"><img src="images/index1_24.jpg"/></div>
+                        <h4>LOREM IO SUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT.</h4>
+                        <p>Donec rhoncus gravida orci sit amet condimentum nisi bibendum eget Nullam scelerisque suscipit metus.Praesent sodales luctus mi faucibus malesusda ipsum sagittis vitae.Insodales leo eget molestie iaculis metus risus adipiscing felis</p>
+                        <p>Let aliquam trllus nibh eget mi.Nulla molestie augue purus.Cum sociis natoque penatibus et magnis dis parturient montes nascetue ridiculus mus.Vivamus ultrices nibh eu dui tristique fringilla.</p>
+                    </div>
+                </div>
+            	<div class="main_right">
+                	<h3>CLIENTS <span>SAY</span></h3>
+                    <div>
+                        <div class="right_content">
+                        	<p><em>Pellentesque sit ament nunc ligula.Donec atpurus lorenm.Quisque consectetur lore tortor its a loys. Petesque sollicitudin quam at purtinad and.</em></p>
+                        </div>
+                        <h4>JOHN BROWN</h4>
+                        <span>Eveniet redumsa etolupta.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="works">
+        	<div class="works_inner">
+            	<div class="works_top">
+                	<h3>LATEST <span>WORKS</span></h3>
+                    <ul>
+                    	<li><a href="javascript:void(0);" id="goR"></a></li>
+                    	<li><a href="javascript:void(0);" id="goL"></a></li>
+                    </ul>
+                </div>
+                <div class="works_bot">
+                    <ul>
+                        <li>
+                            <a class="fancybox" href="images/img_1.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pic_1.jpg"/></a>
+                            <h4>CRAS FERMENTUM AUGUE EGET</h4>
+                            <p>25th September 2012</p>
+                        </li>
+                        <li>
+                            <a class="fancybox" href="images/img_2.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pic_2.jpg"/></a>
+                            <h4>CRAS FERMENTUM AUGUE EGET</h4>
+                            <p>25th September 2012</p>
+                        </li>
+                        <li>
+                            <a class="fancybox" href="images/img_3.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pic_3.jpg"/></a>
+                            <h4>CRAS FERMENTUM AUGUE EGET</h4>
+                            <p>25th September 2012</p>
+                        </li>
+                        <li>
+                            <a class="fancybox" href="images/img_4.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pic_4.jpg"/></a>
+                            <h4>CRAS FERMENTUM AUGUE EGET</h4>
+                            <p>25th September 2012</p>
+                        </li>
+                        <li>
+                            <a class="fancybox" href="images/img_5.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pic_5.jpg"/></a>
+                            <h4>CRAS FERMENTUM AUGUE EGET</h4>
+                            <p>25th September 2012</p>
+                        </li>
+                        <li>
+                            <a class="fancybox" href="images/img_6.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pic_6.jpg"/></a>
+                            <h4>CRAS FERMENTUM AUGUE EGET</h4>
+                            <p>25th September 2012</p>
+                        </li>
+                        <li>
+                            <a class="fancybox" href="images/img_7.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pic_7.jpg"/></a>
+                            <h4>CRAS FERMENTUM AUGUE EGET</h4>
+                            <p>25th September 2012</p>
+                        </li>
+                        <li>
+                            <a class="fancybox" href="images/img_8.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/pic_8.jpg"/></a>
+                            <h4>CRAS FERMENTUM AUGUE EGET</h4>
+                            <p>25th September 2012</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="links">
+        	<div class="links_left">
+            	<h4>INSPIRATION</h4>
+                <ul>
+                	<li><a href="#">Fashion</a></li>
+                	<li><a href="#">Beauty</a></li>
+                	<li><a href="#">Nature</a></li>
+                </ul>
+            </div>
+        	<div class="links_left">
+            	<h4>JOIN IN</h4>
+                <ul>
+                	<li><a href="#">Sign Up</a></li>
+                	<li><a href="#">Forums</a></li>
+                	<li><a href="#">Promotions</a></li>
+                </ul>
+            </div>
+        	<div class="links_left">
+            	<h4>ADVICE</h4>
+                <ul>
+                	<li><a href="#">FAQ</a></li>
+                	<li><a href="#">Solutions</a></li>
+                	<li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+        	<div class="links_left">
+            	<h4>DOWNLOADS</h4>
+                <ul>
+                	<li><a href="#">Press Releases</a></li>
+                	<li><a href="#">Banners $ Logos</a></li>
+                	<li><a href="#">Podcasts</a></li>
+                </ul>
+            </div>
+        	<div class="links_left">
+            	<h4>GET IN TOUCH</h4>
+                <ul>
+                	<li><a href="#" class="face">Facebook</a></li>
+                	<li><a href="#" class="twit">Twitter</a></li>
+                	<li><a href="#" class="rss">RSS Feed</a></li>
+                </ul>
+            </div>
+            <div id="top">
+    			<a href="#"></a>
+   			</div>
+        </div>
+    </div>
+    <div id="footer">
+    	<div class="footer_inner">
+        	<p>JACK DANIELS © 2014丨PRIVACY POLIC</p>
+        </div>
+    </div>
+</body>
+</html>

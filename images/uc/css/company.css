@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica,微软雅黑, sans-serif;
+	}
+a{
+	text-decoration:none;
+	}
+li{
+	list-style:none;
+	}
+#header{
+	height:165px;
+	}
+.header_top{
+	height:74px;
+	border-bottom:1px solid #dbdbdb;
+	}
+.logo{
+	float:left;
+	padding-top:19px;
+	}
+.language,.change{
+	float:right;
+	font-size:12px;
+	line-height:16px;
+	padding-top:40px;
+	}
+.language a{
+	color:#888;
+	padding-left:11px;
+	padding-right:18px;
+	background:url(../images/language_03.jpg) no-repeat left center;
+	}
+.language a:hover{
+	color:#f60;
+	}
+.change .phone{
+	border-left:1px solid #888;
+	background:url(../images/business_header_03.jpg) no-repeat 14px center;
+	}
+.change .pad{
+	background:url(../images/business_header_05.jpg) no-repeat 10px center;
+	}
+
+.change a{
+	color:#888;
+	padding-left:30px;
+	}
+.language a:hover{
+	color:#f60;
+	}
+.header_top_i{
+	width:950px;
+	height:74px;
+	margin:0 auto;
+	}
+.nav{
+	height:37px;
+	border-bottom:2px solid #f60;
+	}
+.nav_inner{
+	width:950px;
+	height:37px;
+	margin:0 auto;
+	}
+.nav_inner ul li{
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	}
+.nav_inner ul a{
+	color:#2c2c2c;
+	padding:10px 32px;
+	line-height:37px;
+	}
+.nav_inner ul a:hover{
+	color:#fff;
+	background-color:#f60;
+	}
+.hezuo{	background:url(../images/business_hezuo_03.jpg) no-repeat center bottom;
+	}
+.hezuo a{
+	color:#f60;
+	}
+.nav_i_r{
+	float:right;
+	}
+.weibo{
+	padding:0 11 11 11;
+	margin-left:6px;
+	background:url(../images/business_show_03.jpg) no-repeat center bottom;
+	}
+.weibo:hover{
+	background:url(../images/business_shows_04.jpg) no-repeat center bottom;
+	}
+.qqwb{
+	padding:0 11 11 11;
+	margin-left:6px;
+	background:url(../images/business_show_05.jpg) no-repeat center bottom;
+	}
+.qqwb:hover{
+	background:url(../images/business_shows_06.jpg) no-repeat center bottom;
+	}
+.fx{
+	padding:0 11 11 11;
+	margin-left:6px;
+	background:url(../images/business_show_07.jpg) no-repeat center bottom;
+	}
+.fx:hover{
+	background:url(../images/business_shows_05.jpg) no-repeat center bottom;
+	}
+.google{
+	padding:0 11 11 11;
+	margin-left:6px;
+	background:url(../images/business_show_09.jpg) no-repeat center bottom;
+	}
+.google:hover{
+	background:url(../images/business_shows_03.jpg) no-repeat center bottom;
+	}
+.in{
+	padding:0 11 11 11;
+	margin-left:6px;
+	background:url(../images/business_show_11.jpg) no-repeat center bottom;
+	}
+.in:hover{
+	background:url(../images/business_shows_07.jpg) no-repeat center bottom;
+	}
+.header_bot{
+	height:51px;
+	background:url(../images/header_nav_02.jpg) repeat-x;
+	}
+.header_bot_i{
+	width:950px;
+	height:51px;
+	margin:0 auto;
+	}
+.header_bot_i ul{
+	float:right;
+	}
+.header_bot_i li{
+	font-size:12px;
+	line-height:47px;
+	float:left;
+	padding-top:2px;
+	padding-left:16;
+	}
+.header_bot_i a{
+	color:#626262;
+	}
+.header_bot_i a:hover{
+	color:#f60;
+	}
+.hzsy a{
+	color:#f60;
+	}
+#banner{
+	height:350px;
+	width:950px;
+	margin:0 auto;
+	}
+#main{
+	height:876px;
+	width:950px;
+	margin:0 auto;
+	padding-top:34px;
+	}
+.content{
+	width:696px;
+	height:876px;
+	float:left;
+	}
+.content h3{
+	font-size:14px;
+	line-height:40px;
+	}
+.content p{
+	font-size:12px;
+	color:#666;
+	line-height:25px;
+	}
+.content_img{
+	text-align:center;
+	padding-top:36px;
+	padding-bottom:50px;
+	}
+.main_right{
+	width:234px;
+	height:490px;
+	float:right;
+	padding-top:14px;
+	margin-right:-7px;
+	}
+.main_nav{
+	width:234px;
+	height:406px;
+	background:url(../images/company_right_06.jpg) repeat-y;
+	}
+.main_nav a{
+	color:#666;
+	}
+.main_nav a:hover{
+	color:#f60;
+	}
+.main_nav .jishu a{
+	color:#f60;
+	}
+.main_nav ul{
+	width:188px;
+	padding-left:27px;
+	}
+.main_nav li{
+	line-height:30px;
+	font-size:12px;
+	border-bottom:1px dotted #b0b0b0;
+	background:url(../images/language_03.jpg) no-repeat left center;
+	padding-left:12px;
+	}
+#footer{
+	height:85px;
+	background-color:#d6d6d6;
+	}
+.footer_inner{
+	widht:950px;
+	height:61px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:24px;
+	}
+.footer_inner p{
+	font-size:12px;
+	color:#666;
+	line-height:22px;
+	font-family:"宋体";
+	}

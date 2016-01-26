@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	}
+li{
+	list-style:none;
+	}
+a{
+	text-decoration:none;
+	color:#505050;
+	}
+a:hover{
+	color:#ff6300;
+	}
+body{
+	font-family:Arial, Helvetica,"微软雅黑", sans-serif;
+	color:#505050;
+	}
+#header{
+	width:990px;
+	height:70px;
+	margin:0 auto;
+	}
+.logo{
+	float:left;
+	padding-top:15px;
+	}
+.nav{
+	float:right;
+	}
+.nav li{
+	float:left;
+	width:92px;
+	line-height:70px;
+	text-align:center;
+	}
+.li_fest{
+	background:url(../images/nav_bj_11.jpg) no-repeat center bottom;
+	}
+#banner{
+	height:400px;
+	background:url(../images/index_pc4.jpg) no-repeat;
+	}
+#icon{
+	height:145px;
+	border-bottom:1px solid #efefef;
+    }
+.icon_inner{
+	width:990px;
+	height:145px;
+	margin:0 auto;
+	}
+.icon_left{
+	width:138px;
+	height:145px;
+	float:left;
+	text-align:center;
+	}
+.icon_right{
+	width:138px;
+	height:145px;
+	float:right;
+	text-align:center;
+	margin-top:-30px;
+	}
+.icon_img{
+	padding-top:21px;
+	}
+#icon h5{
+	font-weight:normal;
+	font-size:12px;
+	color:#484848;
+	line-height:31px;
+	}
+#main{
+	height:390px;
+	width:990px;
+	margin:0 auto;
+	padding-top:20px;
+	}
+.main_left{
+	width:290px;
+	height:390px;
+	float:left;
+	margin-right:58px;
+	}
+.main_right{
+	width:290px;
+	height:390px;
+	float:left;
+	}
+.main_top{
+	height:61px;
+	}
+.main_top h3{
+	float:left;
+	font-size:20px;
+	line-height:61px;
+	font-weight:normal;
+	}
+.main_top a{
+	float:right;
+	font-size:14px;
+	line-height:61px;
+	}
+.main_img{
+	width:290px;
+	height:154px;
+	background-color:#f2f2f2;
+	}
+.main_img p{
+	line-height:34px;
+	font-size:14px;
+	text-align:center;
+	}
+#main ul{
+	padding-top:7px;
+	}
+#main li{
+	padding-top:7px;}
+.main_left a{
+	font-size:14px;
+	}
+.main_right a{
+	font-size:14px;
+	}
+
+#footer{
+	height:471px;
+	background-color:#333;
+	}
+.footer_inner{
+	width:990px;
+	height:471px;
+	margin:0 auto;
+	}
+.footer_top{
+	height:277px;
+	border-bottom:1px dotted #555;
+	}
+.footer_top_l{
+	height:230px;
+	width:165px;
+	float:left;
+	padding-top:46px;
+	}
+.footer_top_r{
+	height:230px;
+	width:165px;
+	float:left;
+	padding-top:46px;
+	}
+.footer_top_r ul{
+	padding-top:18px;
+	}
+.footer_top_r a{
+	padding-left:32px;
+	padding-top:4px;
+	padding-bottom:4px;
+	line-height:26px;
+	background:url(../images/footer_tubiao_03.jpg) no-repeat left center;
+	}
+.footer_top_r a:hover{
+	background:url(../images/footer_tubiao_05.jpg) no-repeat left center;
+	}
+.pad a{
+	background:url(../images/footer_tubiao_17.jpg) no-repeat left center;
+	}
+.pad a:hover{
+	background:url(../images/footer_tubiao_18.jpg) no-repeat left center;
+	}
+.tv a{
+	background:url(../images/footer_tubiao_21.jpg) no-repeat left center;
+	}
+.tv a:hover{
+	background:url(../images/footer_tubiao_22.jpg) no-repeat left center;
+	}
+.weibo a{
+	background:url(../images/footer_tubiao_09.jpg) no-repeat left center;
+	}
+.weibo a:hover{
+	background:url(../images/footer_tubiao_10.jpg) no-repeat left center;
+	}
+.tieba a{
+	background:url(../images/footer_tubiao_13.jpg) no-repeat left center;
+	}
+.tieba a:hover{
+	background:url(../images/footer_tubiao_14.jpg) no-repeat left center;
+	}
+.weixin a{
+	background:url(../images/footer_tubiao_25.jpg) no-repeat left center;
+	}
+.weixin a:hover{
+	background:url(../images/footer_tubiao_26.jpg) no-repeat left center;
+	}
+.cn{
+	width:136px;
+	height:22px;
+	border:1px solid #555;
+	}
+.cn{
+	background:url(../images/worder_39.png) no-repeat 8px center;
+	}
+.cn p{
+	padding-left:28px;
+	background:url(../images/worder_r_44.jpg) no-repeat 118px center;
+	color:#aaa;
+	font-size:12px;
+	line-height:22px;
+	}
+.footer_li_top{
+	color:#aaa;
+	font-weight:bold;
+	font-size:12px;
+	}
+#footer a{
+	font-size:12px;
+	color:#aaa;
+	}
+#footer a:hover{
+	color:#ff6300;
+	}
+.footer_mid{
+	height:37px;
+	border-bottom:1px dotted #555;
+	}
+.footer_mid a{
+	padding:7px;
+	line-height:37px;
+	}
+.footer_mid span{
+	font-size:12px;
+	padding-left:7px;
+	}
+.footer_bot{
+	height:110px;
+	}
+.footer_logo{
+	float:left;
+	padding-top:30px;
+	}
+.footer_b_txt{
+	height:88px;
+	width:410px;
+	float:left;
+	font-size:12px;
+	padding-top:22px;
+	padding-left:16px;
+	}
+.footer_b_r{
+	float:right;
+	padding-top:26px;
+	}
+.footer_b_r img{
+	padding-right:3px;
+	padding-left:13px;
+	}
+
