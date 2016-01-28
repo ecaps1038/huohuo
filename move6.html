@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<head>
+<title>详情页</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="css/detail.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(e) {
+		$('.close').hover(function(){
+			$('.close img').css('display','inline');
+		},function(){
+			$('.close img').css('display','none');
+		});
+
+		$(function(){  
+        //当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失  
+        $(function () {  
+            $(window).scroll(function(){  
+                if ($(window).scrollTop()<$(window).height()){  
+                    $(".top").css('display','none');  
+                }  
+                else  
+                {  
+                    $(".top").css('display','inline');  
+                }  if ($(window).scrollTop()<50){  
+                    $("#right").css('position','relative').css('top','0');  
+                }  
+                else  
+                {  
+                    $("#right").css('position','fixed');  
+                }  
+            });  
+    
+            $(".top").click(function(){  
+                $('body,html').animate({scrollTop:0},300);  
+                return false;  
+            });  
+        });});  
+	});
+</script>
+
+</head>
+
+<body>
+	<section>
+    	<article>
+				<h1>旅游APP临摹</h1>
+			<div><img src="images/lvyou.jpg"/></div>
+		</article>
+        <aside>
+		<div id="right">
+			<h2>详情介绍</h2>
+			<p>一款旅游APP，以交流为主，体验心得。</p>
+			<div class="pic"><img src="images/lvyou2.jpg"/><br/>
+				扫一扫下载app
+			</div>
+			<a href="https://modao.cc/app/3RcRUHDFjNDEyzOjtgz6" target="_blank">网页版</a>
+		</div>
+		</aside>
+    </section>
+	<a class="left" href="move1.html"><i class="fa fa-angle-left"></i></a>
+	<a class="right" href="move2.html"><i class="fa fa-angle-right"></i></a>
+	<a class="top" href="#"><i class="fa fa-angle-up"></i></a>
+    <a  class="close" href="javascript:window.close()"><img src="images/close_icon.png"/></a></div>
+</body>
+</html>

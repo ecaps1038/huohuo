@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<head>
+<title>详情页</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="css/detail.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(e) {
+		$('.close').hover(function(){
+			$('.close img').css('display','inline');
+		},function(){
+			$('.close img').css('display','none');
+		});
+
+		$(function(){  
+        //当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失  
+        $(function () {  
+            $(window).scroll(function(){  
+                if ($(window).scrollTop()<$(window).height()){  
+                    $(".top").css('display','none');  
+                }  
+                else  
+                {  
+                    $(".top").css('display','inline');  
+                }  
+				if ($(window).scrollTop()<50){  
+                    $("#right").css('position','relative').css('top','0');  
+                }  
+                else  
+                {  
+                    $("#right").css('position','fixed');  
+                }  
+            });  
+    
+            $(".top").click(function(){  
+                $('body,html').animate({scrollTop:0},300);  
+                return false;  
+            });  
+        });});  
+	});
+</script>
+
+</head>
+
+<body>
+	<section>
+    	<article>
+				<h1>小草</h1>
+			<div><img src="images/c/psb_1.jpg"/><img src="images/c/psb_2.jpg"/><img src="images/c/psb_3.jpg"/><img src="images/c/psb_4.jpg"/><img src="images/c/psb_5.jpg"/><img src="images/c/psb_6.jpg"/><img src="images/c/psb_7.jpg"/><img src="images/c/psb_8.jpg"/><img src="images/c/psb_9.jpg"/></div>
+		</article>
+        <aside>
+		<div id="right">
+			<h2>详情介绍</h2>
+			<p>草，虽然平凡、渺小，但却有坚韧不拔的生命力;虽然不美丽，但却具有极其旺盛的生命力;这一切都是对生命的渴望而得来的力量!草，不管闪电雷击，不管狂风骤雨，不管严寒酷暑，它都毫不畏惧。这一切都是信念的力量，小草渴望生命，渴望生存，于是又站了起来! </p>
+		</div>
+		</aside>
+    </section>
+	<a class="left" href="sheying5.html"><i class="fa fa-angle-left"></i></a>
+	<a class="right" href="paint2.html"><i class="fa fa-angle-right"></i></a>
+	<a class="top" href="#"><i class="fa fa-angle-up"></i></a>
+    <a  class="close" href="javascript:window.close()"><img src="images/close_icon.png"/></a></div>
+</body>
+</html>
