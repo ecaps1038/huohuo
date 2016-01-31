@@ -191,6 +191,9 @@ aside{
 	aside,.close,.left,.right,.top{
 		display:none;
 		}
+	section{
+		padding-top:0;
+		}
 	section,article,article img{
 		width:100%;
 		}

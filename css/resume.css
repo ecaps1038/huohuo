@@ -27,7 +27,6 @@ body{
 	}
 
 body{
-	width:100%;
 	position:relative;
 	}
 section{
@@ -54,8 +53,6 @@ section{
 	padding-top:20px;
 	transition:all 0.3s;
 	display:none;
-	}
-.close:hover{
 	}
 .left{ 
 	display:inline-block;
@@ -87,15 +84,29 @@ section{
 
 /*◊‘  ”¶*/
 @media screen and (max-width:720px){
-	aside,.close,.left,.right,.top{
+	.close,{
 		display:none;
 		}
-	section,article,article img{
+	section{
+		width:100%;
+		margin-top:0;
+		}
+	 img{
 		width:100%;
 		}
-	article img{
-		border:none;
-		}
-
+.left{ 
+	padding:6px 2px;
+	border-radius:10px;
+	right:20px;
+	font-size:36px;
+	line-height:36px;
+	background:rgba(0,0,0,0.5);
+	}
+.left p{
+	font-size:16px;
+	}
+.left:hover{
+	background:rgba(0,0,0,0.5);
+	}
 }
 
