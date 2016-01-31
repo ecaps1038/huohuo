@@ -624,7 +624,7 @@ header ul li a:hover{
 
 @media screen and (max-width:720px){
 body{
-	min-width:370px;
+	min-width:382px;
 	}
 	.inner{
 		width:100%;
